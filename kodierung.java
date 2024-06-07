@@ -19,10 +19,4 @@ public class kodierung
         x = 0;
     }
     
-    public String decode(String message, int key){
-        String erg;
-        
-        
-        return erg;
-    }
 }
