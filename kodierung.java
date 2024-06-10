@@ -26,6 +26,19 @@ public class kodierung
         return Sub;
     }
     
+    public String entschlüsseln(int key, String vt){
+        String erg; 
+        
+
+        for(int i=0; i== key.length; i++){
+            Sub.enqueue(Sub.getContent());
+            Sub.dequeue();
+        }
+        
+        
+        return erg;
+    }
+    
     
     
 }
