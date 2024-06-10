@@ -5,5 +5,5 @@ comment1.params=
 comment1.target=kodierung()
 comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ kodierung\r\n
 comment2.params=
-comment2.target=Queue\ bef\u00FCllen()
+comment2.target=Queue\ befuellen()
 numComments=3
