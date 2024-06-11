@@ -8,21 +8,21 @@
 public class kodierung
 {
     
-    private Queue<Character> Sub;
+    private Queue<String> Sub;
     private int key;
     /**
      * Konstruktor für Objekte der Klasse kodierung
      */
     public kodierung()
     {
-        Queue <Character> Sub = new Queue<Character>();
+        Queue <String> Sub = new Queue<String>();
     }
     
-    public Queue<Character> befuellen() {
-        Sub = this.Sub;
+    public Queue<String> befuellen() {
         char a = 65; // ASCII-Wert für 'A'
         for (int i = 0; i < 26; i++) {
-            Sub.enqueue(a);
+            String c = String.valueOf(a);
+            Sub.enqueue(c);
             System.out.print(a);
             a++;
         }
